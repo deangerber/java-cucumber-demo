@@ -19,7 +19,6 @@
     <junit.vintage.version>${junit.version}.0-M4</junit.vintage.version>
     <junit.platform.version>1.0.0-M4</junit.platform.version>
     <cucumber.version>1.2.5</cucumber.version>
-    <mockito-core.version>2.7.22</mockito-core.version>
   </properties>
 
   <build>
@@ -73,12 +72,6 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>${junit.version}</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.mockito</groupId>
-      <artifactId>mockito-core</artifactId>
-      <version>${mockito-core.version}</version>
       <scope>test</scope>
     </dependency>
     <dependency>
